@@ -1,6 +1,6 @@
 # catalog
 
-Directory structure of the project. 
+Directory structure of the project. </br>
 Catalog - Package which contains all the function to add, search and get details of product. 
 CatalogTest - contains test of catalog. 
 Product - package which contains model and utility function for heap and product. 
