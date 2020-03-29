@@ -73,7 +73,6 @@ public class TopProduct{
      */
     public void addNodeToHeap(HashMap<Integer, Product> prodDetail, int productID){
         Product curProduct = prodDetail.get(productID);
-        //To do remeber to set detail of that product in map
         //Product is present in heap
         if(curProduct.getHeapIndex() != -1){
             //Increase it's count
