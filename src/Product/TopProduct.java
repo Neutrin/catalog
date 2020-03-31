@@ -53,7 +53,7 @@ public class TopProduct{
             Product curProduct = prodDetail.get(heapDet[index].id);
             //Swap indexes of the products in hasmap
             smallestProduct.setHeapIndex(index);
-            curProduct.setHeapIndex(index);
+            curProduct.setHeapIndex(smallest);
             prodDetail.put(heapDet[smallest].id, smallestProduct);
             prodDetail.put(heapDet[index].id, curProduct);
             //Swap values in heap
